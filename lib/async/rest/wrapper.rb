@@ -6,9 +6,9 @@
 module Async
   module REST
     module Wrapper
-      autoload :Form,         "async/rest/wrapper/form"
-      autoload :JSON,         "async/rest/wrapper/json"
-      autoload :URLEncoded,   "async/rest/wrapper/url_encoded"
+      autoload :Form,         "#{__dir__}/wrapper/form"
+      autoload :JSON,         "#{__dir__}/wrapper/json"
+      autoload :URLEncoded,   "#{__dir__}/wrapper/url_encoded"
     end
   end
 end
