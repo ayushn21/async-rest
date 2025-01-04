@@ -3,5 +3,7 @@
 # Released under the MIT License.
 # Copyright, 2018-2024, by Samuel Williams.
 
+
 require_relative "rest/version"
+require_relative "rest/wrapper"
 require_relative "rest/representation"

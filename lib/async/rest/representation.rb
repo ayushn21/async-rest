@@ -6,7 +6,6 @@
 
 require_relative "error"
 require_relative "resource"
-require_relative "wrapper/json"
 
 module Async
 	module REST
